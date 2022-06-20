@@ -17,6 +17,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.5.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.5.RELEASE'
 }
 
 tasks.named('test') {
